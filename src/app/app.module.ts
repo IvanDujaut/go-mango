@@ -1,18 +1,51 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { ToolbarComponent } from './shared/toolbar/toolbar.component'
+import { CardsComponent } from './shared/cards/cards.component'
+import { CommonModule } from '@angular/common'
+import { SearchInputComponent } from './shared/search-input/search-input.component'
+import { FooterComponent } from './shared/footer/footer.component'
+import { CategoryButtonComponent } from './shared/category-button/category-button.component'
+import { HomeComponent } from './pages/home/home.component'
+import { SecondaryCardComponent } from './shared/secondary-card/secondary-card.component'
+import { AllBenefitsComponent } from './pages/all-benefits/all-benefits.component'
+import { BenefitLandingComponent } from './pages/benefit-landing/benefit-landing.component'
+import { ClientBenefitsComponent } from './pages/client-benefits/client-benefits.component'
+import { BirthdatesComponent } from './pages/birthdates/birthdates.component'
+import { CuponLandingComponent } from './pages/cupon-landing/cupon-landing.component'
+import { GraphQLModule } from './graphql.module'
+import { HttpClientModule } from '@angular/common/http'
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    CardsComponent,
+    SearchInputComponent,
+    FooterComponent,
+    CategoryButtonComponent,
+    HomeComponent,
+    SecondaryCardComponent,
+    AllBenefitsComponent,
+    BenefitLandingComponent,
+    ClientBenefitsComponent,
+    BirthdatesComponent,
+    CuponLandingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    FormsModule,
+    GraphQLModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
+

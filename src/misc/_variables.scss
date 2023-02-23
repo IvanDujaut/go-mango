@@ -1,0 +1,35 @@
+/* Palette */
+$primary: #25305e;
+$primary-80: #4f577c;
+$primary-60: #787F9A;
+$primary-40: #A2A6B9;
+$primary-10: #E0E1E5;
+
+$secondary: #FF9C29;
+$secondary-80: #FDAE52;
+$secondary-60: #FBC07B;
+$secondary-40: #F9D1A3;
+
+$terciary: #57ca23;
+
+$background: #F5F5F5;
+
+/* Font Sizes */
+$text-hero: clamp(2.4rem, calc(1.9vw + 1.5rem), 3.8rem);
+$text-heading1: clamp(2.1rem, calc(1.25vw + 1.5rem), 3rem);
+$text-heading2: clamp(1.8rem, calc(1.1vw + 1.25rem), 2.6rem);
+$text-heading3: clamp(1.5rem, calc(1vw + 1rem), 2.2rem);
+$text-base: clamp(1.2rem, calc(0.5vw + 1rem), 1.6rem);
+$text-paragraph: clamp(0.9rem, calc(0.58vw + 0.6rem), 1.3rem);
+$text-secondary: 1.6em;
+$text-terciary: 1.2em;
+
+/* Spacing */
+$sp-xxxl: 12rem;
+$sp-columnGapPages: 4.2rem;
+$sp-xxl: 8rem;
+$sp-xl: 5rem;
+$sp-lg: 3.2rem;
+$sp-md: 1.6rem;
+$sp-sm: 0.8rem;
+$sp-xs: 0.5rem;
