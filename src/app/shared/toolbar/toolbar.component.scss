@@ -19,7 +19,7 @@ header {
       padding: 1rem 2rem;
       width: min(65vw, 120rem);
       height: auto;
-      margin: 0 auto;
+      //margin-inline: auto;
       background: $secondary-10;
       border-radius: 0 0 12px 12px;
       .logos-header {
@@ -38,16 +38,57 @@ header {
 
     .options {
       display: flex;
-      padding: 1rem 2rem;
+      column-gap: 1em;//justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      width: min(90vw, 120rem);
       height: auto;
-      margin: 0 auto;
-      justify-content: space-between;
+      //margin: 0 auto;
+      max-width: 120rem;
+      
       .menu {
         display: flex;
         align-items: center;
-        column-gap: 4.5rem; //padding: 1rem 3rem;
-        width: min(65vw, 120rem);
+        width: 78.5%;//min(15vw, 120rem);
+        flex-wrap: nowrap;
+
         &__items {
+            flex: 2 1 auto;
+            text-align: center;
+            white-space: nowrap;
+            margin-bottom: 0;
+        }
+      }
+      .btn-login {
+        background: $primary-80;
+        border: none;
+        cursor: pointer;
+        border-radius: 1rem;
+        gap: 0.5rem;
+        display: flex;
+        align-items: center;        
+        flex: 1 2 0;//width: min(100% - 2rem, 20rem);
+        height: auto;
+        padding: 0.5rem 1rem;
+
+        .profile {
+          display: flex;
+          align-items: center;
+          width: 3.6rem;
+          height: 3.6rem;
+          &__img {
+            width: 87.5%;
+            height: auto;
+            margin-inline: auto;
+          }
+        }
+
+        .logIn-text {
+          font-family: "Catamaran";
+          font-style: normal;
+          font-weight: 600;
+          font-size: $text-base;
+          color: $secondary-10;
         }
       }
     }
