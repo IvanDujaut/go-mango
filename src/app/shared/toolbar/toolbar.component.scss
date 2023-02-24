@@ -2,7 +2,7 @@
 
 header {
   background: $primary;
-  padding: 0 $sp-xxxl;
+  padding: 0 5vw;
   width: 100%;
   height: auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -17,7 +17,7 @@ header {
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      width: min(65vw, 120rem);
+      width: min(90vw, 120rem);
       height: auto;
       //margin-inline: auto;
       background: $secondary-10;
@@ -48,13 +48,11 @@ header {
       
       .menu {
         display: flex;
-        align-items: center;
         width: 78.5%;//min(15vw, 120rem);
-        flex-wrap: nowrap;
-
+        
         &__items {
-            flex: 2 1 auto;
-            text-align: center;
+            flex: 1 1 auto;
+            text-align: start;
             white-space: nowrap;
             margin-bottom: 0;
         }
@@ -67,7 +65,7 @@ header {
         gap: 0.5rem;
         display: flex;
         align-items: center;        
-        flex: 1 2 0;//width: min(100% - 2rem, 20rem);
+        flex: 1 3 0;//width: min(100% - 2rem, 20rem);
         height: auto;
         padding: 0.5rem 1rem;
 
