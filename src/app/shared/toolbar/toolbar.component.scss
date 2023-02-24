@@ -1,0 +1,55 @@
+@import "./../../../styles.scss";
+
+header {
+  background: $primary;
+  padding: 0 $sp-xxxl;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logos-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      width: min(65vw, 120rem);
+      height: auto;
+      margin: 0 auto;
+      background: $secondary-10;
+      border-radius: 0 0 12px 12px;
+      .logos-header {
+        width: min(100% - 0.5rem, 24rem); //anchototal - padding, maxwidth
+        height: auto;
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+        &__img {
+          width: min(100%, 10em); //width: 10em;
+          height: auto;
+          margin-inline: auto;
+        }
+      }
+    }
+
+    .options {
+      display: flex;
+      padding: 1rem 2rem;
+      height: auto;
+      margin: 0 auto;
+      justify-content: space-between;
+      .menu {
+        display: flex;
+        align-items: center;
+        column-gap: 4.5rem; //padding: 1rem 3rem;
+        width: min(65vw, 120rem);
+        &__items {
+        }
+      }
+    }
+  }
+}
