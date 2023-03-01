@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { Component } from '@angular/core'
 import { Router } from '@angular/router'
-import { NgOptimizedImage } from '@angular/common'
 
 @Component({
   selector: 'app-root',
