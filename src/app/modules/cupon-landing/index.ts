@@ -1,0 +1,1 @@
+export * from './cupon-landing.module';
