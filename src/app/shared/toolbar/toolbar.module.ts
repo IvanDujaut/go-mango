@@ -9,6 +9,9 @@ import { ToolbarComponent } from './component/toolbar.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ToolbarComponent
   ]
 })
 export class ToolbarModule { }

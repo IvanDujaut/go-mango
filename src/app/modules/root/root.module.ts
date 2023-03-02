@@ -21,7 +21,7 @@ import { HomeModule } from '../home';
     BrowserAnimationsModule,
     HttpClientModule,
     //LoginModule,
-    HomeModule
+    //HomeModule
   ],
   exports: [
     HomeModule

@@ -27,8 +27,8 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule  } from './home-routing-module';
 import { HomeComponent } from './component/home.component';
-import { ToolbarModule } from '../../shared/toolbar/';
-import { FooterModule } from '../../shared/footer/index';
+import { ToolbarModule } from '../../shared/toolbar';
+import { FooterModule } from '../../shared/footer';
 
 @NgModule({
   declarations: [
