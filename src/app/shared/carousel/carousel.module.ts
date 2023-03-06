@@ -9,6 +9,9 @@ import { CarouselComponent } from './component/carousel.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CarouselComponent
   ]
 })
 export class CarouselModule { }

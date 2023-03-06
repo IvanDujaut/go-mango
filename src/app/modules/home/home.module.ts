@@ -28,6 +28,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule  } from './home-routing-module';
 import { HomeComponent } from './component/home.component';
 import { ToolbarModule } from '../../shared/toolbar';
+import { CarouselModule } from '../../shared/carousel';
 import { FooterModule } from '../../shared/footer';
 
 @NgModule({
@@ -38,6 +39,7 @@ import { FooterModule } from '../../shared/footer';
     CommonModule,
     HomeRoutingModule,
     ToolbarModule,
+    CarouselModule,
     FooterModule
   ]
 })
