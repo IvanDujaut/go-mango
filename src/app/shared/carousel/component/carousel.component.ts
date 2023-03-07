@@ -15,7 +15,7 @@ export class CarouselComponent implements OnInit {
    * como son componentes que vienen de un padre o de una
    * vista vamos a usar input
    */
-  @Input() height = 500;
+  @Input() height = 50;
   @Input() isFullScreen = false;
   @Input() items: CarouselResponse[] = [];
 
@@ -28,7 +28,7 @@ export class CarouselComponent implements OnInit {
   public currentPosition = 0;
 
   constructor() {
-    this.finalHeight = this.isFullScreen? '100vh' : `${this.height}px`;
+    this.finalHeight = this.isFullScreen? '100vh' : `${this.height}vh`;
   }
 
   ngOnInit(): void {
